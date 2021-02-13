@@ -18,6 +18,25 @@ a:hover {
     cursor: pointer;
 }
 
+.partenaires {
+    text-align: center;
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-size: 11px;
+}
+
+.partenaires ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 242px;
+    margin-right: 300px;
+}
+
+.partenaires li {
+   margin-left: 15px;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -896,12 +915,10 @@ h4 {
         position: relative;
     }
     h1,
-    h2,
     h3,
     h4,
     h5,
     h6,
-    p,
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
@@ -1039,5 +1056,28 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+@media (max-width: 414px) {
+    .img_responsive {
+        width: 100%;
+    }
+    .img-responsive {
+        width: 320px;
+        margin:auto;
+        text-align: center;
+    }
+    .portfolio-row {
+        margin-bottom: 12px;
+        margin-top: 24px;
+    }
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    h2 {
+        font-size: 19px;
     }
 }
