@@ -57,6 +57,22 @@ a:hover {
     position: relative;
 }
 
+.text_remplace p {
+    font-size: 19px;
+}
+
+.text_remplace_2 p {
+    font-size: 17px;
+}
+
+.titre_change h2 {
+    font-size : 21px;
+    color: rgb(63, 63, 63)!important;
+}
+
+.text_remplace_2 .petit_text {
+    font-size: 12px;
+}
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -848,7 +864,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
-    filter: brightness(50%);
+    
 }
 
 .bg-presentation {
@@ -902,10 +918,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -914,8 +927,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1089,5 +1100,33 @@ h4 {
     }
     h2 {
         font-size: 19px;
+    }
+}
+
+@media (max-width: 414px) {
+    #bloc-1-hero h1 {
+        font-size: 29px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    .titre_change h2 {
+        width: auto;
+        font-size: 19px;
+    }
+    .text_remplace_2 p {
+        font-size: 12px;
+        width: 300px;
+        margin:auto;
+        overflow: hidden;
+    }
+    .text_remplace p {
+        font-size: 15px;
+        width: 300px;
+        margin:auto;
+        overflow: hidden; 
+    }
+    .hero-bloc-text {
+        font-size: 31px;
     }
 }
