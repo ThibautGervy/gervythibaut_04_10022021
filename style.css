@@ -20,9 +20,9 @@ a:hover {
 
 .partenaires {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 25px;
     color: #FFFFFF;
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .partenaires ul {
@@ -31,10 +31,13 @@ a:hover {
     justify-content: center;
     margin-left: 242px;
     margin-right: 300px;
+    color: white !important;
+    margin-top: 10px;
 }
 
-.partenaires li {
+.partenaires a {
    margin-left: 15px;
+   color: white !important;
 }
 
 #page-loading-blocs-notifaction {
@@ -1067,7 +1070,7 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 414px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1111,8 +1114,9 @@ h4 {
         font-size: 17px;
     }
     .titre_change h2 {
-        width: auto;
+        width: 300px;
         font-size: 19px;
+        margin: auto;
     }
     .text_remplace_2 p {
         font-size: 12px;
@@ -1128,5 +1132,35 @@ h4 {
     }
     .hero-bloc-text {
         font-size: 31px;
+    }
+}
+
+@media (min-width : 414px) {
+    .titre_change h2 {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 764px) {
+    .partenaires ul {
+        margin : auto;
+        width: 300px;
+        margin-right: 73px;
+    }
+
+    .partenaires a {
+        font-size: 7px;
+    }
+}
+
+@media (min-width: 768px) {
+    .partenaires ul {
+        margin : auto;
+        width: 600px;
+        margin-right: 100px;
+    }
+
+    .partenaires a {
+        font-size: 10px;
     }
 }
