@@ -1189,3 +1189,8 @@ h4 {
 address {
     color: black;
 }
+
+blockquote {
+    font-style: italic;
+    color: black;
+}
