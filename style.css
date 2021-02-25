@@ -1171,3 +1171,8 @@ h4 {
         margin-right: 320px;
     }
 }
+
+.subtitle {
+    font-size: 17px;
+    color: white!important;
+}
