@@ -1176,3 +1176,9 @@ h4 {
     font-size: 17px;
     color: white!important;
 }
+
+@media (max-width: 765px) {
+    .info {
+        margin-left: 20px;
+    }
+}
