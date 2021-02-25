@@ -1185,3 +1185,7 @@ h4 {
         font-size: 11px;
     }
 }
+
+address {
+    color: black;
+}
