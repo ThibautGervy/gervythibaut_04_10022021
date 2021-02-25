@@ -1157,10 +1157,17 @@ h4 {
     .partenaires ul {
         margin : auto;
         width: 600px;
-        margin-right: 100px;
+        margin-right: 220px;
     }
 
     .partenaires a {
         font-size: 10px;
+        margin-left: 15px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .partenaires ul {
+        margin-right: 320px;
     }
 }
